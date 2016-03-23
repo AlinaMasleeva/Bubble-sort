@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+    background-size: cover;
+}
+
+body {
+    font: 17px / 1.4 Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap, #result {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#result {
+    display: table;
+    table-layout: fixed;
+    border-spacing: 5px;
+    border: 1px solid #FFA651;
+}
+
+.wrap h1 {
+    margin: 20px 0;
+}
+
+input[type='number'] {
+    display: inline-block;
+    width: 100px;
+    padding: 8px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+    background: #FFD8B3;
+    border: 1px solid #FFA651;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background: #FFA651;
+    color: white;
+}
+
+.new-box {
+    display: table-cell;
+    border: 1px solid #FFA651;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.disabled-box {
+    background: grey;
+}
